@@ -1,0 +1,10 @@
+var n=40;
+if(n<0)
+{
+    console.log("Condition is true");
+
+}
+else
+{
+    console.log("is not true");
+}
