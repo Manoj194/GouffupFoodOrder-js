@@ -1,0 +1,6 @@
+var arr=["js script",25.68,52]
+var n=0;
+while (arr>0) {
+    
+    
+}

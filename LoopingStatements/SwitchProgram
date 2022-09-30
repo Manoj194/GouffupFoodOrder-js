@@ -1,0 +1,13 @@
+var age=22;
+switch(age)
+{
+case 22
+console.log("real age is 22");
+break;
+
+case 18
+console.log("real age is 18");
+break;
+default: 
+console.log("IS not real  age");
+}
