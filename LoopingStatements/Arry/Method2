@@ -1,0 +1,37 @@
+var arr=[1,2,3,4]//It is used for concatination process
+var arr1 =["manu"]
+console.log(arr.concat(arr1));
+console.log(arr);
+/******************** */
+var arr2=[1,2,3,4] //
+var arr3='m'
+console.log(arr2.push(arr3));
+console.log(arr2);
+/************************ */
+var arr4=[1,2,3,4]
+console.log(arr4.pop());
+console.log(arr4);
+/**************************** */
+var arr5=[1,2,3,4]
+console.log(arr5.unshift('4000'));
+console.log(arr5);
+/********************************* */
+var arr6=[1,2,3,4]
+console.log(arr6.shift());
+console.log(arr6);
+/********************************** */
+var arr7=[1,2,3,4]
+console.log(arr7.splice(2,3,8000));
+console.log(arr7);
+/******************************** */
+var arr8=[1,2,3,4]
+console.log(arr8.slice(1,4));
+console.log(arr8);
+
+
+
+
+
+
+
+
