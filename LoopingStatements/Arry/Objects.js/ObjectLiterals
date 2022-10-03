@@ -1,0 +1,22 @@
+var Mobile={
+    Brand:"Redmi",
+    MobName:"Redmi note 7s",
+   Configuration:{Ram:"4GB",StorageArea:"64GB",version:10},
+
+
+Mobile:function() {
+    return 800000;
+ 
+} }
+  Mobile.manufacturingYear = 2018
+  delete Mobile.manufacturingYear
+
+console.log(Mobile);
+console.log(Mobile.Configuration);
+console.log(Mobile.Configuration.Ram)
+console.log(Mobile.Configuration.version)
+
+
+
+
+

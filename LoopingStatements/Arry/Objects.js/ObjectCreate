@@ -1,0 +1,21 @@
+var myself={
+    f_name:"GHS",
+    l_name:"kudur",
+    YOP:2016,
+
+    greet:function(){
+        return "My school name is:" +" "+this.f_name+" "+this.l_name+" "+"Passout year:"+" "+this.YOP
+    }
+}
+ var biodata= Object.create(myself)
+ biodata.f_name="Middle level school"
+ biodata.l_name="kudur"
+ biodata.YOP=2013
+
+ console.log(biodata);
+ console.log(biodata.greet());
+ console.log(myself.greet());
+
+ //f_name: 'Middle school', l_name: 'kudur', YOP: 2013 }
+//My school name is: Middle school kudur Passout year: 2013
+//My school name is: GHS kudur Passout year: 2016
