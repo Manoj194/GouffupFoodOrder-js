@@ -16,7 +16,7 @@ node("java",2,"javascript",'b')
 
 function node(e,f,g,h)
 {
-console.log(arguments[3]);
+console.log(arguments);
 }
 node("Username","Pwd","URL","Resturanr module")
 

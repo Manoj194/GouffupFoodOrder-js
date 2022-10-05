@@ -11,4 +11,4 @@ var muitiply=(a,b)=>
         return "a is not greater"
     }
 }
-console.log(multiply(5,6));
+multiply(5,6);

@@ -15,7 +15,7 @@ var Newdetails={
     l_name:"manju11",
 
     greet:function(){
-        console.log( Newdetails.name);
+        console.log( Details.name);
         console.log(this.f_name);
         console.log(this.l_name);
 

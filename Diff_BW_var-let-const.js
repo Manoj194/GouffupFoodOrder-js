@@ -1,5 +1,5 @@
 //var a=10;
-//var a=10;   var reinitalization is possible
+//var a=10;   var reinitalization is possible and redeeclaration is possible
 
 let a=10
 let a=10  // let reDeclaration is not possible

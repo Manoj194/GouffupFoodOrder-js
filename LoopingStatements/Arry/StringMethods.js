@@ -23,10 +23,10 @@ var str6="have a good day"
 console.log(str6.lastIndexOf("y"));
 /******************************************* */
 var str7="have a good day"
-console.log(str7.replace("have","hi"));
+console.log(str7.replace("have","not"));
 /******************************************** */
 var str8="have a good day"
-console.log(str8.repeat(4));
+console.log(str8.repeat(10));
 /********************************************* */
 var str9="have a good day"
 console.log(str9.trim());

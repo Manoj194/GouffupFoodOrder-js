@@ -12,6 +12,12 @@ const c=3;//Script
     var g=7//Local
     let h=8;//local
     const i=9;//local
+    {
+        var d=15//local
+    let e=16//block
+    const f=618//block
+  
+    }
 }
 }
 manu(1,2)

@@ -67,7 +67,7 @@ console.log(arr9.some((element)=>
 //return FALSE if any one element of an array is not satisfying the condition
 //Without modification any existing array
 /**************************************** */
-var arr10=[9,8,7,10,5]
+var arr10=[9,8,7,10,5]//========================================================================>>>>Dout
 console.log(arr10.indexOf(5,5));
 console.log(arr10);
 //It will return the index value of search element traversing is form left==>right 
@@ -75,10 +75,10 @@ console.log(arr10);
 //indexof(searchElement,Formindex)
 
 /**************************************** */
-var arr11=[9,8,7,18,5,8,7,6]
+var arr11=[9,8,7,18,5,8,7,6]//========================================================================>>>>Dout
 console.log(arr11.lastIndexOf(18,4));
 console.log(arr11);
-//it will return the index value of search element traversing is form right==>
+//it will return the index value of search element traversing is form right==>left
 //Without modification any existing changes
 /******************************************* */
 var arr12=[9,8,7,18,5,5,7,6]
@@ -110,7 +110,7 @@ console.log(arr15);
 var arr16=[9,8,7,1,5]
 
     console.log(arr16.map((element,index)=>{
-        return element-1
+        return element
     }))
 console.log(arr16);
 //It will perform the operations and return all the resulted element in the form of array
@@ -122,7 +122,7 @@ console.log(arr17.filter((element,index)=>{
     return element}))
     console.log(arr17);
     //array.filter(()=>{//filtercondition})
-    //It will return the array based on filter condition it will return the element in the form of an array that only satisfyed the given filter condition
+    //It will return the array based on filter condition and it will return the element in the form of an array that only satisfyed the given filter condition
     //it will not modify the existing array
 /*********************************************** */
 var arr18=[1,3,5,7,9]
@@ -135,7 +135,7 @@ console.log(arr18);
 //modifies the existing array
 /************************************************ */
 var arr19=[1,3,5,7,9]
-console.log(arr18.sort((a,b)=>{
+console.log(arr19.sort((a,b)=>{
     return b-a
 }));
 console.log(arr19);
