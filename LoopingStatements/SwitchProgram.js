@@ -18,16 +18,15 @@ console.log("IS not real  age");
 // IS not real  age
 
 /******************************************************************** */
-// var grade = "E"
-// switch(grade){
-//     case "A": console.log("First class");
-//     break;
-//     case "B": console.log("Second Class");
-//     break;
-//     case "C": console.log("Third Class");
-//     break;
-//     case "D": console.log("Just Passed");
-//     break;
-//     default: console.log("Enter proper grade");
-//     break;
-// }
+var age=25;
+switch(age){
+    case 20:
+    console.log("age is 20");
+    break
+    case 18:
+        console.log("age is 18")
+        break
+        default:
+            console.log("this is false age");
+}
+

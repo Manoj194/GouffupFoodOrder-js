@@ -1,6 +1,6 @@
 
 
 var arr=["gouff",1,5,"Foodorder"]
-arr.forEach((value,index,arr) => {
-    console.log(index+"   "+value +"    "+arr)
+arr.forEach((value,arr) => {
+    console.log(value +"    "+arr)
 })

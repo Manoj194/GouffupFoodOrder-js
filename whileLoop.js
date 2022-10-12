@@ -1,4 +1,4 @@
-var x=10
+var x=50001
 var y=0
 while(y<x)
 {

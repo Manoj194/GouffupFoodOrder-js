@@ -6,6 +6,8 @@ var NumbofEmployes=40000
 function display_NumbofEmployes (){
 console.log( NumbofEmployes);
 }
-NumbofEmployes()
+
+display_NumbofEmployes ()
 }
-companyname()
+display_companyname()
+

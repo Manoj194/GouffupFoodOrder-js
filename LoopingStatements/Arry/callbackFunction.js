@@ -32,15 +32,56 @@
 //numbers=add
 /************************************************ */
 
-function multiflication (a,b,number){
-console.log("Execution started");
-result=number(a,b)
-console.log(result);
-}
-function mul(a,b)
-{
-    return a*b
-} 
-multiflication (4,4,mul)
+// function multiflication (a,b,number){
+// console.log("Execution started");
+// result=number(a,b)
+// console.log(result);
+// }
+// function mul(a,b)
+// {
+//     return a*b
+// } 
+// multiflication (4,4,mul)
+
+/************************************************* */
+ function multiflication (a,b,c,manu){
+     console.log("Execution started");
+     result=manu(a,b,c)
+     console.log(result);
+     }
+
+     function mul(a,b,c)
+     {
+         return a+b+c
+     } 
+     multiflication (4,4,4,mul)
+
+   
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    

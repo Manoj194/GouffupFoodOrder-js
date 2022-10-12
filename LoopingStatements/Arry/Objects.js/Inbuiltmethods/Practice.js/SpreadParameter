@@ -1,0 +1,19 @@
+var arr=["manoj","kumar",234,'d']
+var arr1=["manoj","kumar",234,'d']
+console.log(...arr,...arr1);
+/********************************** */
+var arr=["manoj","kumar",234,'d']
+var arr1=[...arr,"manu"]
+console.log(arr1);
+/************************************** */
+var manu={
+    p1:"bgpalya",
+    p2:"magadi"
+}
+var manu1={
+    p3:"kudur",
+    p4:"ramanagar"
+}
+var arr9={...manu,...manu1}
+console.log(arr9);
+

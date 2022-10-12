@@ -1,14 +1,14 @@
-// var arr=["abc",5.8,'a',"script"]
-// for(var i=0; i<arr.length;i++)
-// {
-//     if(i<arr.length)
-//     {
-//        console.log("IS DONE")
-//         break
-//     }
+var arr=["abc",5.8,'a',"script"]
+for(var i=0; i<arr.length;i++)
+{
+    if(i<arr.length)
+    {
+       console.log("IS DONE")
+        break
+    }
     
-// }
-// var brr=["abcd",7.8,'c',"script"]
+}
+var brr=["abcd",7.8,'c',"script"]
 
 //COUNTINUE
 
@@ -22,5 +22,4 @@ for(var i=0; i<arr.length;i++)
     }
     
 }
-var brr=["abcd",7.8,'c',"script"]
 
